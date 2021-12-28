@@ -732,6 +732,11 @@ input, select, textarea {
 			flex_direction: column;
 			align-items: center;
 			justify-content: center;
+			opacity: 0;
+		}
+
+		.image__overlay:hover {
+			opacity: 1;
 		}
 
 		.image__title {
