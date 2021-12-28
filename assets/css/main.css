@@ -719,6 +719,7 @@ input, select, textarea {
 			}
 
 		}
+		
 		.image__overlay {
 			position: absolute;
 			top: 0;
@@ -728,7 +729,12 @@ input, select, textarea {
 			background: rgba(0,0,0,0.6);
 			color: #fffff;
 			display:  flex;
+			flex_direction: column;
+			align-items: center;
+			justify-content: center;
 		}
+
+
 
 /* List */
 
