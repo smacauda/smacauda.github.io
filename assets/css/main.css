@@ -736,6 +736,10 @@ input, select, textarea {
 			transition:  opacity 0.25s;
 		}
 
+		.image__overlay--blur {
+			backdrop-filter: blur(5px);
+		}
+
 		.image__overlay > * {
 			transform: translateY(20px);
 			transition: transform 0.25s;
